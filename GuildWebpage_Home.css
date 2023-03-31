@@ -1,0 +1,118 @@
+﻿body {
+    background-color: #1d1d1d; /* sets the background color to a dark gray */
+    color: #fff; /* sets the text color to white */
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-y: scroll;
+}
+
+.container {
+    width: 1160px;
+    height: 625px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 160px;
+}
+
+h1 {
+    margin-top: 150px; /* adds some space below the navigation bar */
+    font-size: 50px;
+    font-family: 'Verdana', sans-serif;
+    text-align: center; /* centers the nav */
+    margin-bottom: 100px;
+}
+
+section p { /* adds some space below the navigation bar */
+    font-size: 20px;
+    font-family: 'Verdana', sans-serif;
+}
+
+nav {
+    position: fixed; /* makes the nav fixed */
+    top: 0; /* positions the nav at the top */
+    width: 100%; /* sets the width to 100% */
+    text-align: center; /* centers the nav */
+    background-color: #292c2f; /* sets the background color to a darker gray */
+}
+
+nav ul {
+    display: inline-block; /* displays the list items horizontally */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block; /* displays the list items horizontally */
+    margin: 0 10px; /* adds some space between each item */
+}
+
+nav a {
+    display: block; /* makes the link clickable */
+    padding: 10px; /* adds some padding around the link */
+    text-decoration: none; /* removes underline */
+    font-weight: bold;
+    color: #fff; /* sets the link color to white */
+}
+
+nav a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; /* adds some space between the icon and text */
+    vertical-align: middle;
+}
+
+.header {
+    padding-top: 50px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.header img{
+    align-items: center;
+}
+
+nav a:hover {
+    background: #fff; 
+    color: #333;
+}
+
+nav li:not(:hover) a img {
+    filter: invert(100%);
+}
+
+footer {
+    bottom: 0;
+}
+
+.footer-distributed {
+    margin-top: 150px;
+    background-color: #292c2f;
+    box-sizing: border-box;
+    padding: 45px 50px;
+    bottom: 0;
+}
+
+.footer-distributed .footer-left p {
+    /* Nuggies Immortalis font/ color set up */
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-distributed p a {
+    
+    display: block; /* makes the link clickable */
+    text-decoration: none; /* removes underline */
+    color: #fff; /* sets the link color to white */
+    text-align: center;
+    color: white;
+}
+
+.footer-distributed .footer-right {
+    float: right;
+}
+
+.footer-distributed .footer-right a {
+    margin-left: 3px;
+    transition: all .25s;
+}
